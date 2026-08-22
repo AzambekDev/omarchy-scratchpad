@@ -73,8 +73,8 @@ omarchy plugin enable azambekdev.scratchpad right
 To toggle Scratchpad with a global shortcut in Hyprland, add this to `~/.config/hypr/bindings.lua`:
 
 ```lua
--- Scratchpad toggle with Super+Alt+N
-o.bind("SUPER + ALT + N", "Scratchpad", "omarchy-shell shell toggle azambekdev.scratchpad '{}'")
+-- Scratchpad toggle with Super+Ctrl+M
+o.bind("SUPER + CTRL + M", "Scratchpad", "omarchy-shell shell toggle azambekdev.scratchpad '{}'")
 ```
 
 ---
