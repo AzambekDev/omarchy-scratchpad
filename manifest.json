@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "azambekdev.scratchpad",
+  "name": "Scratchpad",
+  "version": "1.0.0",
+  "author": "Azambek Sattarov",
+  "description": "Instant bar notes, scratchpad, daily todo list, and code snippets manager for Omarchy",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Scratchpad",
+    "description": "Notes, todos, and snippets",
+    "category": "Productivity",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "defaultTab": "todos",
+      "showTaskCount": true,
+      "autoSave": true,
+      "compactView": false
+    },
+    "schema": [
+      {
+        "key": "defaultTab",
+        "type": "string",
+        "label": "Default Tab (todos/notes/snippets)"
+      },
+      {
+        "key": "showTaskCount",
+        "type": "boolean",
+        "label": "Show Pending Tasks in Bar"
+      },
+      {
+        "key": "compactView",
+        "type": "boolean",
+        "label": "Compact Bar Icon Only"
+      }
+    ]
+  }
+}
