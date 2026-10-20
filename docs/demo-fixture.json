@@ -1,0 +1,12 @@
+{
+  "todos": [
+    { "id": 1, "text": "Write release notes", "done": false, "createdAt": 1792368000 },
+    { "id": 2, "text": "Review keyboard flow", "done": false, "createdAt": 1792368000 },
+    { "id": 3, "text": "Capture the demo", "done": true, "createdAt": 1792368000 }
+  ],
+  "notes": "# Demo notes\n\n- Keep the next step small.\n- Save the useful details.\n\nAll text in this capture is fictional.\n",
+  "snippets": [
+    { "id": 1, "title": "Print a greeting", "code": "printf 'hello\\n'", "tag": "shell" },
+    { "id": 2, "title": "Show the current directory", "code": "pwd", "tag": "shell" }
+  ]
+}
