@@ -28,6 +28,24 @@
 
 ---
 
+## Screenshots
+
+Captured on Omarchy 4.0.4-1 / Hyprland 0.56.2, using the active desktop theme
+and [fictional demo data](docs/demo-fixture.json).
+
+| Default bar | Compact bar |
+| :---: | :---: |
+| ![Scratchpad bar showing two of three tasks pending](docs/screenshots/bar-default.png) | ![Scratchpad compact bar icon](docs/screenshots/bar-compact.png) |
+
+| Todos | Notes | Snippets |
+| :---: | :---: | :---: |
+| ![Scratchpad todo checklist](docs/screenshots/todos.png) | ![Scratchpad notes tab](docs/screenshots/notes.png) | ![Scratchpad snippets tab](docs/screenshots/snippets.png) |
+
+[Capture details and limitations](docs/native-demo.md). These images show the
+rendered views; they do not verify the keyboard flow.
+
+---
+
 ## Keyboard Navigation
 
 When the popup is open, you can navigate and edit with the keyboard:
